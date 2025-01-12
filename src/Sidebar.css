@@ -7,6 +7,7 @@
     height: fit-content;
 
 }
+
 .sidebar__top{
     display: flex;
     flex-direction: column;
@@ -17,6 +18,15 @@
     border-top-right-radius: 10px;
     background-color: white;
     padding-bottom: 10px;
+}
+
+.sidebar__top > h2{
+    font-size: 15px;
+}
+
+.sidebar__top > h4{
+    font-size: 12px;
+    color: rgb(128, 128, 128);
 }
 
 .sidebar__avatar{
@@ -41,13 +51,51 @@
 }
 
 .sidebar__stat{
+    margin-top: 10px;
     display: flex;
-    padding-top: 10px;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+.sidebar__stat > p{
+    font-size: 12px;
+    color: gray;
+    font-weight: 600;
 }
 
 .sidebar__statNumber{
     font-weight: bold;
+    color: #6a69c9 !important;
+    font-size: 12px;
+}
+
+.sidebar__feature{
+    border: 1px solid #dfdcdc;
+    border-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    size: 10px;
+    color: gray;
+}
+
+.sidebar__features{
+    font-size: 12px;
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.sidebar__content{
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.sidebar__features__icon .MuiSvgIcon-root {
+    font-size: 36px; 
 }
