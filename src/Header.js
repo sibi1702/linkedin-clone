@@ -1,12 +1,14 @@
 import React from 'react'
 import './Header.css'
-import SearchIcon from '@mui/icons-material/Search';
 import HeaderOption from './HeaderOption';
+
+import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import PeopleIcon from '@mui/icons-material/People';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import InsertCommentIcon from '@mui/icons-material/InsertComment';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
+
 function Header() {
   return (
     <div className="header">
